@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to <div class="verticalbottom"><img src="https://user-images.githubusercontent.com/4315156/90423535-a5345380-e08a-11ea-8bfa-70af4fdbcb7e.png" alt="Dicemoot" width="125" height="50"  vertical-align="text-bottom"></div>
 
-You can use the [editor on GitHub](https://github.com/Jerryescandon/dicemoot-web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Dicemoot is a isometric board game simulation environment that aims to make playing a boardgame digitally easier. The core feature of DiceMoot is  allowing players to import 2D images as 3D tokens or a scalable gridded map the tokens can be placed upon. This allows creation of objects, environment or characters that look nice on the board but also allows easier creation of assets without specilized knowledge of 3D sculpting.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Proposed Implementation
 
-### Markdown
+For ease of access for users of all types a web interface would serve well. Rendering the 3D model of the game board, character tokens and the like could be implemented via [threejs](https://threejs.org/). Examples such as [this one](https://threejs.org/examples/#webgl_geometry_spline_editor) show most of the features necessary to implement the game with this library.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jerryescandon/dicemoot-web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+A proof of concept is necessary to show multiplayer access capability on a 3D board with multiple users connecting from different networks.
